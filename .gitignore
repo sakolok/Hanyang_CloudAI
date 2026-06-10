@@ -27,8 +27,6 @@ service_account*.json
 projectvault-agent/output_vault/
 projectvault-agent/output_vault*/
 projectvault-agent/output_vault_write_test/
-projectvault-agent/.gstack/
-projectvault-agent/GITHUB_UPLOAD_CHECKLIST.md
 
 # Generated document previews and Word lock files
 projectvault-agent/reports/
