@@ -24,6 +24,15 @@ service_account*.json
 *.token.json
 
 # Generated/local-only ProjectVault outputs
+output_vault/
+output_vault*/
+output_vault_write_test/
+reports/
+reports/rendered_report/
+.gstack/
+GITHUB_UPLOAD_CHECKLIST.md
+
+# Leftover local-only files from the previous nested project layout
 projectvault-agent/output_vault/
 projectvault-agent/output_vault*/
 projectvault-agent/output_vault_write_test/
