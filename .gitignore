@@ -1,0 +1,37 @@
+.DS_Store
+**/.DS_Store
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+.venv*/
+venv/
+env/
+
+# Local secrets and Google credentials
+.env
+*.env
+credentials.json
+token.json
+service_account.json
+client_secret.json
+service_account*.json
+*.credentials.json
+*.token.json
+
+# Generated/local-only ProjectVault outputs
+projectvault-agent/output_vault/
+projectvault-agent/output_vault*/
+projectvault-agent/output_vault_write_test/
+projectvault-agent/.gstack/
+projectvault-agent/GITHUB_UPLOAD_CHECKLIST.md
+
+# Generated document previews and Word lock files
+projectvault-agent/reports/
+projectvault-agent/reports/rendered_report/
+~$*.docx
+projectvault-agent/reports/~$*.docx

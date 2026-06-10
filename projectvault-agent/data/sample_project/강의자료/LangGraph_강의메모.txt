@@ -1,0 +1,18 @@
+LangGraph 강의 정리
+
+LangGraph는 LLM 애플리케이션을 상태 기반 워크플로우로 구성하기 위한 프레임워크다. 프로젝트에서는 입력 폴더 스캔, 파일 분석, 지식 그래프 생성, Obsidian 노트 생성, Google Sheets 저장을 각각 Node로 분리할 수 있다.
+
+핵심 개념
+- State: 워크플로우 전체에서 공유되는 데이터 구조다. ProjectVault에서는 input_dir, files, analyzed_files, graph_nodes, graph_edges, sheets_rows, final_report를 State에 담는다.
+- Node: State를 받아 일부 필드를 업데이트하는 함수다. 예를 들어 scan_project_folder는 파일 목록을 만들고 analyze_files는 Gemini 분석 결과를 추가한다.
+- Edge: Node 실행 순서를 연결한다. START에서 scan_project_folder로 시작해 generate_final_report 후 END로 끝나는 선형 흐름을 만들 수 있다.
+
+Gemini API 활용
+- 파일 내용을 단순 요약하지 않고 Concept, Task, Error, Decision, Requirement 같은 구조화 정보로 추출한다.
+- 과제 공지에서는 제출물, 평가 기준, 분량, 기술 조건을 우선 추출한다.
+- 코드 파일에서는 파일 역할, 주요 함수, 보안 주의사항을 추출한다.
+
+Obsidian Markdown link
+- Obsidian은 [[노트 이름]] 형태의 wikilink를 사용해 관련 노트를 연결한다.
+- Task 노트에서 관련 File 노트와 Concept 노트를 링크하면 작업 흐름을 따라가기 쉽다.
+- graph.json과 Markdown 링크를 함께 생성하면 학생 프로젝트의 현재 상태를 시각적으로 파악할 수 있다.

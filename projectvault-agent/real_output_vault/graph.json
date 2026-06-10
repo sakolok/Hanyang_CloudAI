@@ -1,0 +1,1344 @@
+{
+  "nodes": [
+    {
+      "id": "project:local",
+      "label": "real_course_input",
+      "type": "Project",
+      "type_label": "프로젝트",
+      "properties": {
+        "input_dir": "/Users/kang-ok-il/Documents/Hanyang_AI_cloud/projectvault-agent/real_course_input"
+      }
+    },
+    {
+      "id": "file:강의자료_강의메모.md",
+      "label": "강의자료/강의메모.md",
+      "type": "File",
+      "type_label": "파일",
+      "properties": {
+        "path": "/Users/kang-ok-il/Documents/Hanyang_AI_cloud/projectvault-agent/real_course_input/강의자료/강의메모.md",
+        "filename": "강의메모.md",
+        "extension": ".md",
+        "file_type": "lecture_pdf",
+        "content_preview": "[프롬포트기법]\nFew-shot\n예시를 몇 개 보여주기\n특정 형식이나 패턴을 모델에게 제시\n도할 때 유용\n정해진 포맷의 답변을 유 복잡한 논리 추론 문제에서는\n예시만으로 한계가 있음\n\nChain of Thought(CoT)\n풀이 과정을 나열함\n모델의 논리적 추론 능 력을 활성화\n정답률을 높일 수 있음\n복잡한 수학, 상식 추론의 중간 단계가 틀리면 최종 답도\n틀리는 '오류 전파' 발생\n\nZero-shot CoT\n\"차례 대로 풀자\" 라는 특정 문구로 단계 생성\n예시(Few-shot) 없이 도 추론 능력 유도\n예시를 직접 작성할 필요 가"
+      }
+    },
+    {
+      "id": "file:과제_및_공지_기말프로젝트_공지.md",
+      "label": "과제_및_공지/기말프로젝트_공지.md",
+      "type": "File",
+      "type_label": "파일",
+      "properties": {
+        "path": "/Users/kang-ok-il/Documents/Hanyang_AI_cloud/projectvault-agent/real_course_input/과제_및_공지/기말프로젝트_공지.md",
+        "filename": "기말프로젝트_공지.md",
+        "extension": ".md",
+        "file_type": "assignment_notice",
+        "content_preview": "\n기말 프로젝트 제출물\n\n- 보고서: 팀원 이름 목록과 소속 대학 / 구상한 AI 에이전트의 필요성, 목적, 개요 / 설계한 워크플로우와 그에 대한 설명 / 실행 예시 (입력 및 출력 예시를 통해 의도와 같이 동작함을 보여주세요) /  구현 방법에 대한 설명 (총 최소 A4 5페이지)\n\n- 소스코드: LangChain/LangGraph를 이용한 에이전트 코드 (API 키가 노출되지 않도록 주의할 것)\n\n\n제출자\n\n- 팀원 중 1인이 본 과제 제출란에 업로드 (반드시 1인만 제출하도록! 만약 복수의 팀원이 제출 시에는 그 중에 아무거"
+      }
+    },
+    {
+      "id": "file:과제_및_공지_제출안내.md",
+      "label": "과제_및_공지/제출안내.md",
+      "type": "File",
+      "type_label": "파일",
+      "properties": {
+        "path": "/Users/kang-ok-il/Documents/Hanyang_AI_cloud/projectvault-agent/real_course_input/과제_및_공지/제출안내.md",
+        "filename": "제출안내.md",
+        "extension": ".md",
+        "file_type": "assignment_notice",
+        "content_preview": "- 모든 케이스를 판단해 줄 수는 없고 \"확고부동한 객관적\" AI 사용 흔적이 없으면 된다\n- 가능하다면 서버에 구현물을 올려놓고 채점 시 접근 가능하도록 꾸며놓으면 좋지만 (절대 필수라던가 권장사항이 아님)\n- 백엔드 소스코드를 제출하며 보고서에 필요한 서버 (패키지 등) 세팅 방법을 간단히 설명하고 스크린 샷 등 실행의 예를 보고서에 포함하면 좋다\n- API 키는 비워놓고 (예를 들어 \"YOUR-API-KEY-HERE\" 같은 문자열로 대치)  제출한다\n- 조교가 설치해볼 수 있도록 필요한 준비사항을 설명한다"
+      }
+    },
+    {
+      "id": "file:과제_및_공지_평가기준.md",
+      "label": "과제_및_공지/평가기준.md",
+      "type": "File",
+      "type_label": "파일",
+      "properties": {
+        "path": "/Users/kang-ok-il/Documents/Hanyang_AI_cloud/projectvault-agent/real_course_input/과제_및_공지/평가기준.md",
+        "filename": "평가기준.md",
+        "extension": ".md",
+        "file_type": "assignment_notice",
+        "content_preview": "모든 케이스를 판단해 줄 수는 없고 \"확고부동한 객관적\" AI 사용 흔적이 없으면 된다\n\n▪ 팀과제: AI 에이전트 응용 프로그램\n– 1팀 당 1~3인\n– 자율 구성\n\n▪ 평가 방법\n– 교수 및 조교 4인 평가\n– 아이디어 70% + 구현완성도 30%\n\n▪ 평가 등급\n– 최우수 과제 3 팀 → 30점 만점\n– 우수과제 5팀 → 20점\n– 그 외 제출팀 → 10점\n– 미제출 → 0점"
+      }
+    },
+    {
+      "id": "file:메모_lms_확인_메모.md",
+      "label": "메모/LMS_확인_메모.md",
+      "type": "File",
+      "type_label": "파일",
+      "properties": {
+        "path": "/Users/kang-ok-il/Documents/Hanyang_AI_cloud/projectvault-agent/real_course_input/메모/LMS_확인_메모.md",
+        "filename": "LMS_확인_메모.md",
+        "extension": ".md",
+        "file_type": "note",
+        "content_preview": "향후 강의 일정입니다.\n\n12주차~14주차 실습 (5월 22, 29일, 6월 5일) 시간에는 퀴즈가 없습니다.\n\n기말프로젝트 팀활동을 자유롭게 수행하기 바랍니다\n\n \n\n그리고 6월 12일 오후 1시~3시는 기말고사를 실시합니다.\n\n시험범위는 전 범위입니다 (그래도 중간 고사 이후 공부한 내용이 비중이 높습니다)\n\n타대학 시험방식은 중간고사와 같은 방식으로 하려고 합니다."
+      }
+    },
+    {
+      "id": "file:메모_내_정리.md",
+      "label": "메모/내_정리.md",
+      "type": "File",
+      "type_label": "파일",
+      "properties": {
+        "path": "/Users/kang-ok-il/Documents/Hanyang_AI_cloud/projectvault-agent/real_course_input/메모/내_정리.md",
+        "filename": "내_정리.md",
+        "extension": ".md",
+        "file_type": "note",
+        "content_preview": "6/12까지 기말 프로젝트 제출하기"
+      }
+    },
+    {
+      "id": "file:제출물_readme.md",
+      "label": "제출물/README.md",
+      "type": "File",
+      "type_label": "파일",
+      "properties": {
+        "path": "/Users/kang-ok-il/Documents/Hanyang_AI_cloud/projectvault-agent/real_course_input/제출물/README.md",
+        "filename": "README.md",
+        "extension": ".md",
+        "file_type": "submission_file",
+        "content_preview": ""
+      }
+    },
+    {
+      "id": "file:제출물_보고서_초안.md",
+      "label": "제출물/보고서_초안.md",
+      "type": "File",
+      "type_label": "파일",
+      "properties": {
+        "path": "/Users/kang-ok-il/Documents/Hanyang_AI_cloud/projectvault-agent/real_course_input/제출물/보고서_초안.md",
+        "filename": "보고서_초안.md",
+        "extension": ".md",
+        "file_type": "submission_file",
+        "content_preview": "교류수학을 수강하면서 타학교 LMS의 공지와 과제를 주기적으로 확인하기 어렵다는 문제의식에서 출발함\n->\n기존 본 학교 LMS(2개)와, 타학교 LMS에 접속해야 하다 보니, 과제, 제출 조건, 강의자료를 놓치거나 나중에 다시 찾는 일이 번거로움에서 시작 (흩어진 정보를 구조화/시각화)\n->\nLMS에 들어온 김에 한 번에 자료를 다 스크랩 해두고, 이를 과제 수행에 필요한 요구사항과 할 일 중심의 정리하는 에이전트 구상함\n->\n할 일을 옵시디언 시각적 그래프와 Google Sheets연동하여 일정관리\n\n\nLangGraph 구현\n입력"
+      }
+    },
+    {
+      "id": "concept:few-shot_프롬프팅",
+      "label": "Few-shot 프롬프팅",
+      "type": "Concept",
+      "type_label": "개념",
+      "properties": {
+        "name": "Few-shot 프롬프팅",
+        "description": "예시를 몇 개 보여주어 특정 형식이나 패턴을 모델에게 제시하는 기법",
+        "slug": "few-shot_프롬프팅"
+      }
+    },
+    {
+      "id": "concept:chain_of_thought_cot",
+      "label": "Chain of Thought (CoT)",
+      "type": "Concept",
+      "type_label": "개념",
+      "properties": {
+        "name": "Chain of Thought (CoT)",
+        "description": "풀이 과정을 나열하여 모델의 논리적 추론 능력을 활성화하고 정답률을 높이는 기법",
+        "slug": "chain_of_thought_cot"
+      }
+    },
+    {
+      "id": "concept:zero-shot_cot",
+      "label": "Zero-shot CoT",
+      "type": "Concept",
+      "type_label": "개념",
+      "properties": {
+        "name": "Zero-shot CoT",
+        "description": "\"차례대로 풀자\"와 같은 특정 문구로 예시 없이 추론 능력을 유도하는 기법",
+        "slug": "zero-shot_cot"
+      }
+    },
+    {
+      "id": "concept:least-to-most",
+      "label": "Least-to-Most",
+      "type": "Concept",
+      "type_label": "개념",
+      "properties": {
+        "name": "Least-to-Most",
+        "description": "문제를 하위 문제로 쪼개어 복잡한 다단계 문제를 해결하는 기법",
+        "slug": "least-to-most"
+      }
+    },
+    {
+      "id": "concept:self-consistency",
+      "label": "Self-Consistency",
+      "type": "Concept",
+      "type_label": "개념",
+      "properties": {
+        "name": "Self-Consistency",
+        "description": "여러 답을 생성하고 다수결 투표를 통해 답변의 신뢰성과 정확도를 검증하는 기법",
+        "slug": "self-consistency"
+      }
+    },
+    {
+      "id": "concept:langchain",
+      "label": "LangChain",
+      "type": "Concept",
+      "type_label": "개념",
+      "properties": {
+        "name": "LangChain",
+        "description": "거대 언어 모델을 사용하여 에이전트 애플리케이션을 쉽게 구축할 수 있도록 돕는 오픈 소스 프레임워크",
+        "slug": "langchain"
+      }
+    },
+    {
+      "id": "concept:chains_langchain",
+      "label": "Chains (LangChain)",
+      "type": "Concept",
+      "type_label": "개념",
+      "properties": {
+        "name": "Chains (LangChain)",
+        "description": "LLM 호출, 데이터 처리 등 여러 작업을 순차적으로 연결하는 시퀀스를 정의하는 구성 요소",
+        "slug": "chains_langchain"
+      }
+    },
+    {
+      "id": "concept:agents_langchain",
+      "label": "Agents (LangChain)",
+      "type": "Concept",
+      "type_label": "개념",
+      "properties": {
+        "name": "Agents (LangChain)",
+        "description": "LLM을 추론 엔진으로 사용하여 어떤 행동을 취할지, 어떤 도구를 사용할지 동적으로 결정하는 구성 요소",
+        "slug": "agents_langchain"
+      }
+    },
+    {
+      "id": "concept:prompts_langchain",
+      "label": "Prompts (LangChain)",
+      "type": "Concept",
+      "type_label": "개념",
+      "properties": {
+        "name": "Prompts (LangChain)",
+        "description": "LLM에 입력할 지시사항을 포맷팅하고 관리하는 구성 요소",
+        "slug": "prompts_langchain"
+      }
+    },
+    {
+      "id": "concept:retrieval_langchain",
+      "label": "Retrieval (LangChain)",
+      "type": "Concept",
+      "type_label": "개념",
+      "properties": {
+        "name": "Retrieval (LangChain)",
+        "description": "외부 데이터를 로드하고 검색하여 LLM에 제공할 수 있도록 벡터DB 또는 API를 제공하는 구성 요소 (RAG 구현 시 필수)",
+        "slug": "retrieval_langchain"
+      }
+    },
+    {
+      "id": "concept:memory_langchain",
+      "label": "Memory (LangChain)",
+      "type": "Concept",
+      "type_label": "개념",
+      "properties": {
+        "name": "Memory (LangChain)",
+        "description": "대화의 맥락을 유지하기 위해 이전 상호작용 데이터를 저장하고 관리하는 구성 요소",
+        "slug": "memory_langchain"
+      }
+    },
+    {
+      "id": "concept:models_langchain",
+      "label": "Models (LangChain)",
+      "type": "Concept",
+      "type_label": "개념",
+      "properties": {
+        "name": "Models (LangChain)",
+        "description": "LLM(텍스트 생성) 및 Chat Models(대화형 메시지 처리)에 대한 표준 인터페이스를 제공하는 구성 요소",
+        "slug": "models_langchain"
+      }
+    },
+    {
+      "id": "concept:lcel_chain",
+      "label": "LCEL Chain",
+      "type": "Concept",
+      "type_label": "개념",
+      "properties": {
+        "name": "LCEL Chain",
+        "description": "LangChain의 표현식 언어로, 파이프(|) 연결을 통해 선형 흐름에 최적화된 구조",
+        "slug": "lcel_chain"
+      }
+    },
+    {
+      "id": "concept:langgraph",
+      "label": "LangGraph",
+      "type": "Concept",
+      "type_label": "개념",
+      "properties": {
+        "name": "LangGraph",
+        "description": "노드-엣지 그래프 구조로 비선형 흐름, 조건 분기, 순환/반복(Loop)을 자유롭게 표현할 수 있는 프레임워크",
+        "slug": "langgraph"
+      }
+    },
+    {
+      "id": "concept:stategraph",
+      "label": "StateGraph",
+      "type": "Concept",
+      "type_label": "개념",
+      "properties": {
+        "name": "StateGraph",
+        "description": "LangGraph의 핵심으로, 클래스를 명시적으로 선언하여 자료구조를 줄 수 있으며 그래프 실행 중 상태가 자동 전달되는 구조",
+        "slug": "stategraph"
+      }
+    },
+    {
+      "id": "requirement:보고서는_팀원_정보_ai_에이전트의_필요성_목적_개요_워크플로우_설명_실행_예시_구현_방법_설명을_포함해야_함",
+      "label": "보고서는 팀원 정보, AI 에이전트의 필요성/목적/개요, 워크플로우 설명, 실행 예시, 구현 방법 설명을 포함해야 함",
+      "type": "Requirement",
+      "type_label": "요구사항",
+      "properties": {
+        "title": "보고서는 팀원 정보, AI 에이전트의 필요성/목적/개요, 워크플로우 설명, 실행 예시, 구현 방법 설명을 포함해야 함",
+        "source": "기말프로젝트_공지.md",
+        "slug": "보고서는_팀원_정보_ai_에이전트의_필요성_목적_개요_워크플로우_설명_실행_예시_구현_방법_설명을_포함해야_함"
+      }
+    },
+    {
+      "id": "requirement:보고서는_최소_a4_5페이지_이상_작성해야_함",
+      "label": "보고서는 최소 A4 5페이지 이상 작성해야 함",
+      "type": "Requirement",
+      "type_label": "요구사항",
+      "properties": {
+        "title": "보고서는 최소 A4 5페이지 이상 작성해야 함",
+        "source": "기말프로젝트_공지.md",
+        "slug": "보고서는_최소_a4_5페이지_이상_작성해야_함"
+      }
+    },
+    {
+      "id": "requirement:소스코드는_langchain_langgraph를_사용하여_에이전트를_구현해야_함",
+      "label": "소스코드는 LangChain/LangGraph를 사용하여 에이전트를 구현해야 함",
+      "type": "Requirement",
+      "type_label": "요구사항",
+      "properties": {
+        "title": "소스코드는 LangChain/LangGraph를 사용하여 에이전트를 구현해야 함",
+        "source": "기말프로젝트_공지.md",
+        "slug": "소스코드는_langchain_langgraph를_사용하여_에이전트를_구현해야_함"
+      }
+    },
+    {
+      "id": "requirement:api_키가_노출되지_않도록_주의해야_함",
+      "label": "API 키가 노출되지 않도록 주의해야 함",
+      "type": "Requirement",
+      "type_label": "요구사항",
+      "properties": {
+        "title": "API 키가 노출되지 않도록 주의해야 함",
+        "source": "기말프로젝트_공지.md",
+        "slug": "api_키가_노출되지_않도록_주의해야_함"
+      }
+    },
+    {
+      "id": "requirement:팀원_중_1인만_과제_제출란에_업로드해야_함",
+      "label": "팀원 중 1인만 과제 제출란에 업로드해야 함",
+      "type": "Requirement",
+      "type_label": "요구사항",
+      "properties": {
+        "title": "팀원 중 1인만 과제 제출란에 업로드해야 함",
+        "source": "기말프로젝트_공지.md",
+        "slug": "팀원_중_1인만_과제_제출란에_업로드해야_함"
+      }
+    },
+    {
+      "id": "task:보고서에_ai_에이전트의_실행_예시_입력_및_출력_를_추가하여_의도대로_동작함을_보여주기",
+      "label": "보고서에 AI 에이전트의 실행 예시(입력 및 출력)를 추가하여 의도대로 동작함을 보여주기",
+      "type": "Task",
+      "type_label": "할 일",
+      "properties": {
+        "title": "보고서에 AI 에이전트의 실행 예시(입력 및 출력)를 추가하여 의도대로 동작함을 보여주기",
+        "priority": "HIGH",
+        "reason": "과제 보고서의 필수 요구사항에 포함됨",
+        "slug": "보고서에_ai_에이전트의_실행_예시_입력_및_출력_를_추가하여_의도대로_동작함을_보여주기"
+      }
+    },
+    {
+      "id": "task:langchain_langgraph를_사용하여_ai_에이전트_소스코드_구현하기",
+      "label": "LangChain/LangGraph를 사용하여 AI 에이전트 소스코드 구현하기",
+      "type": "Task",
+      "type_label": "할 일",
+      "properties": {
+        "title": "LangChain/LangGraph를 사용하여 AI 에이전트 소스코드 구현하기",
+        "priority": "HIGH",
+        "reason": "과제의 핵심 제출물이며 기술 스택이 명시됨",
+        "slug": "langchain_langgraph를_사용하여_ai_에이전트_소스코드_구현하기"
+      }
+    },
+    {
+      "id": "task:보고서에_설계한_워크플로우와_그에_대한_설명을_작성하기",
+      "label": "보고서에 설계한 워크플로우와 그에 대한 설명을 작성하기",
+      "type": "Task",
+      "type_label": "할 일",
+      "properties": {
+        "title": "보고서에 설계한 워크플로우와 그에 대한 설명을 작성하기",
+        "priority": "HIGH",
+        "reason": "과제 보고서의 필수 요구사항에 포함됨",
+        "slug": "보고서에_설계한_워크플로우와_그에_대한_설명을_작성하기"
+      }
+    },
+    {
+      "id": "task:api_키가_소스코드에_노출되지_않도록_처리하기",
+      "label": "API 키가 소스코드에 노출되지 않도록 처리하기",
+      "type": "Task",
+      "type_label": "할 일",
+      "properties": {
+        "title": "API 키가 소스코드에 노출되지 않도록 처리하기",
+        "priority": "HIGH",
+        "reason": "보안 경고가 명시되어 있으며 중요한 보안 위험임",
+        "slug": "api_키가_소스코드에_노출되지_않도록_처리하기"
+      }
+    },
+    {
+      "id": "error:api_키_노출_위험",
+      "label": "API 키 노출 위험",
+      "type": "Error",
+      "type_label": "오류",
+      "properties": {
+        "title": "API 키 노출 위험",
+        "reason": "소스코드 제출 시 API 키가 포함되어 노출될 수 있음",
+        "slug": "api_키_노출_위험"
+      }
+    },
+    {
+      "id": "error:복수_팀원_제출로_인한_미완성_제출물_평가_위험",
+      "label": "복수 팀원 제출로 인한 미완성 제출물 평가 위험",
+      "type": "Error",
+      "type_label": "오류",
+      "properties": {
+        "title": "복수 팀원 제출로 인한 미완성 제출물 평가 위험",
+        "reason": "여러 팀원이 제출할 경우, 교수님이 임의의 제출물을 평가할 수 있으며, 이로 인해 미완성 버전이 평가될 수 있음",
+        "slug": "복수_팀원_제출로_인한_미완성_제출물_평가_위험"
+      }
+    },
+    {
+      "id": "requirement:ai_사용_흔적을_남기지_않아야_함",
+      "label": "AI 사용 흔적을 남기지 않아야 함",
+      "type": "Requirement",
+      "type_label": "요구사항",
+      "properties": {
+        "title": "AI 사용 흔적을 남기지 않아야 함",
+        "source": "제출안내.md",
+        "slug": "ai_사용_흔적을_남기지_않아야_함"
+      }
+    },
+    {
+      "id": "requirement:백엔드_소스코드_제출",
+      "label": "백엔드 소스코드 제출",
+      "type": "Requirement",
+      "type_label": "요구사항",
+      "properties": {
+        "title": "백엔드 소스코드 제출",
+        "source": "제출안내.md",
+        "slug": "백엔드_소스코드_제출"
+      }
+    },
+    {
+      "id": "requirement:보고서에_서버_세팅_방법_설명_포함",
+      "label": "보고서에 서버 세팅 방법 설명 포함",
+      "type": "Requirement",
+      "type_label": "요구사항",
+      "properties": {
+        "title": "보고서에 서버 세팅 방법 설명 포함",
+        "source": "제출안내.md",
+        "slug": "보고서에_서버_세팅_방법_설명_포함"
+      }
+    },
+    {
+      "id": "requirement:보고서에_실행_예시_스크린샷_등_포함",
+      "label": "보고서에 실행 예시 (스크린샷 등) 포함",
+      "type": "Requirement",
+      "type_label": "요구사항",
+      "properties": {
+        "title": "보고서에 실행 예시 (스크린샷 등) 포함",
+        "source": "제출안내.md",
+        "slug": "보고서에_실행_예시_스크린샷_등_포함"
+      }
+    },
+    {
+      "id": "requirement:api_키를_비워놓고_제출_예_your-api-key-here_로_대체",
+      "label": "API 키를 비워놓고 제출 (예: \"YOUR-API-KEY-HERE\"로 대체)",
+      "type": "Requirement",
+      "type_label": "요구사항",
+      "properties": {
+        "title": "API 키를 비워놓고 제출 (예: \"YOUR-API-KEY-HERE\"로 대체)",
+        "source": "제출안내.md",
+        "slug": "api_키를_비워놓고_제출_예_your-api-key-here_로_대체"
+      }
+    },
+    {
+      "id": "requirement:조교가_설치할_수_있도록_필요한_준비사항_설명",
+      "label": "조교가 설치할 수 있도록 필요한 준비사항 설명",
+      "type": "Requirement",
+      "type_label": "요구사항",
+      "properties": {
+        "title": "조교가 설치할 수 있도록 필요한 준비사항 설명",
+        "source": "제출안내.md",
+        "slug": "조교가_설치할_수_있도록_필요한_준비사항_설명"
+      }
+    },
+    {
+      "id": "task:보고서에_서버_패키지_등_세팅_방법_작성",
+      "label": "보고서에 서버 (패키지 등) 세팅 방법 작성",
+      "type": "Task",
+      "type_label": "할 일",
+      "properties": {
+        "title": "보고서에 서버 (패키지 등) 세팅 방법 작성",
+        "priority": "HIGH",
+        "reason": "과제 제출 요구사항에 포함됨",
+        "slug": "보고서에_서버_패키지_등_세팅_방법_작성"
+      }
+    },
+    {
+      "id": "task:보고서에_실행_예시_스크린샷_등_추가",
+      "label": "보고서에 실행 예시 (스크린샷 등) 추가",
+      "type": "Task",
+      "type_label": "할 일",
+      "properties": {
+        "title": "보고서에 실행 예시 (스크린샷 등) 추가",
+        "priority": "HIGH",
+        "reason": "과제 제출 요구사항에 포함됨",
+        "slug": "보고서에_실행_예시_스크린샷_등_추가"
+      }
+    },
+    {
+      "id": "task:제출_전_api_키를_비워두거나_대체_문자열로_변경",
+      "label": "제출 전 API 키를 비워두거나 대체 문자열로 변경",
+      "type": "Task",
+      "type_label": "할 일",
+      "properties": {
+        "title": "제출 전 API 키를 비워두거나 대체 문자열로 변경",
+        "priority": "HIGH",
+        "reason": "과제 제출 요구사항 및 보안 지침",
+        "slug": "제출_전_api_키를_비워두거나_대체_문자열로_변경"
+      }
+    },
+    {
+      "id": "task:조교를_위한_설치_준비사항_문서화",
+      "label": "조교를 위한 설치 준비사항 문서화",
+      "type": "Task",
+      "type_label": "할 일",
+      "properties": {
+        "title": "조교를 위한 설치 준비사항 문서화",
+        "priority": "HIGH",
+        "reason": "과제 제출 요구사항에 포함됨",
+        "slug": "조교를_위한_설치_준비사항_문서화"
+      }
+    },
+    {
+      "id": "error:api_키가_제출물에_포함될_위험",
+      "label": "API 키가 제출물에 포함될 위험",
+      "type": "Error",
+      "type_label": "오류",
+      "properties": {
+        "title": "API 키가 제출물에 포함될 위험",
+        "reason": "명시적으로 API 키를 비워두거나 대체 문자열로 변경하라는 지시가 있음",
+        "slug": "api_키가_제출물에_포함될_위험"
+      }
+    },
+    {
+      "id": "decision:서버에_구현물_배포는_필수가_아니므로_선택_사항으로_고려",
+      "label": "서버에 구현물 배포는 필수가 아니므로 선택 사항으로 고려",
+      "type": "Decision",
+      "type_label": "결정사항",
+      "properties": {
+        "title": "서버에 구현물 배포는 필수가 아니므로 선택 사항으로 고려",
+        "reason": "제출 안내에 '절대 필수라던가 권장사항이 아님'으로 명시됨",
+        "slug": "서버에_구현물_배포는_필수가_아니므로_선택_사항으로_고려"
+      }
+    },
+    {
+      "id": "requirement:ai_에이전트_응용_프로그램_개발",
+      "label": "AI 에이전트 응용 프로그램 개발",
+      "type": "Requirement",
+      "type_label": "요구사항",
+      "properties": {
+        "title": "AI 에이전트 응용 프로그램 개발",
+        "source": "평가기준.md",
+        "slug": "ai_에이전트_응용_프로그램_개발"
+      }
+    },
+    {
+      "id": "requirement:팀원_1_3인으로_구성",
+      "label": "팀원 1~3인으로 구성",
+      "type": "Requirement",
+      "type_label": "요구사항",
+      "properties": {
+        "title": "팀원 1~3인으로 구성",
+        "source": "평가기준.md",
+        "slug": "팀원_1_3인으로_구성"
+      }
+    },
+    {
+      "id": "requirement:평가_시_아이디어_70_구현_완성도_30_반영",
+      "label": "평가 시 아이디어 70%, 구현 완성도 30% 반영",
+      "type": "Requirement",
+      "type_label": "요구사항",
+      "properties": {
+        "title": "평가 시 아이디어 70%, 구현 완성도 30% 반영",
+        "source": "평가기준.md",
+        "slug": "평가_시_아이디어_70_구현_완성도_30_반영"
+      }
+    },
+    {
+      "id": "requirement:기말_프로젝트_팀_활동_수행",
+      "label": "기말 프로젝트 팀 활동 수행",
+      "type": "Requirement",
+      "type_label": "요구사항",
+      "properties": {
+        "title": "기말 프로젝트 팀 활동 수행",
+        "source": "LMS_확인_메모.md",
+        "slug": "기말_프로젝트_팀_활동_수행"
+      }
+    },
+    {
+      "id": "requirement:6월_12일까지_기말_프로젝트_제출",
+      "label": "6월 12일까지 기말 프로젝트 제출",
+      "type": "Requirement",
+      "type_label": "요구사항",
+      "properties": {
+        "title": "6월 12일까지 기말 프로젝트 제출",
+        "source": "내_정리.md",
+        "slug": "6월_12일까지_기말_프로젝트_제출"
+      }
+    },
+    {
+      "id": "task:기말_프로젝트_제출_준비_및_완료",
+      "label": "기말 프로젝트 제출 준비 및 완료",
+      "type": "Task",
+      "type_label": "할 일",
+      "properties": {
+        "title": "기말 프로젝트 제출 준비 및 완료",
+        "priority": "HIGH",
+        "reason": "명시된 제출 마감일이 존재함",
+        "slug": "기말_프로젝트_제출_준비_및_완료"
+      }
+    },
+    {
+      "id": "concept:obsidian_시각적_그래프",
+      "label": "Obsidian 시각적 그래프",
+      "type": "Concept",
+      "type_label": "개념",
+      "properties": {
+        "name": "Obsidian 시각적 그래프",
+        "description": "할 일 및 정보 간의 관계를 시각적으로 표현하여 관리하는 도구",
+        "slug": "obsidian_시각적_그래프"
+      }
+    },
+    {
+      "id": "concept:google_sheets_연동",
+      "label": "Google Sheets 연동",
+      "type": "Concept",
+      "type_label": "개념",
+      "properties": {
+        "name": "Google Sheets 연동",
+        "description": "추출된 정보를 요약하여 일정 관리에 활용하기 위한 스프레드시트 통합",
+        "slug": "google_sheets_연동"
+      }
+    },
+    {
+      "id": "concept:requirement_노드",
+      "label": "Requirement 노드",
+      "type": "Concept",
+      "type_label": "개념",
+      "properties": {
+        "name": "Requirement 노드",
+        "description": "과제 공지사항 등에서 추출된 요구사항을 나타내는 그래프 노드",
+        "slug": "requirement_노드"
+      }
+    },
+    {
+      "id": "concept:task_노드",
+      "label": "Task 노드",
+      "type": "Concept",
+      "type_label": "개념",
+      "properties": {
+        "name": "Task 노드",
+        "description": "수행해야 할 구체적인 할 일을 나타내는 그래프 노드",
+        "slug": "task_노드"
+      }
+    },
+    {
+      "id": "task:실행_예시_입력_출력_추가",
+      "label": "실행 예시 입력/출력 추가",
+      "type": "Task",
+      "type_label": "할 일",
+      "properties": {
+        "title": "실행 예시 입력/출력 추가",
+        "priority": "HIGH",
+        "reason": "과제 공지사항에서 Task 노드로 분류될 수 있는 구체적인 요구사항 예시로 언급됨",
+        "slug": "실행_예시_입력_출력_추가"
+      }
+    },
+    {
+      "id": "task:입력_폴더_스캔",
+      "label": "입력 폴더 스캔",
+      "type": "Task",
+      "type_label": "할 일",
+      "properties": {
+        "title": "입력 폴더 스캔",
+        "priority": "MEDIUM",
+        "reason": "워크플로우의 시작점으로, 파일 내용을 분석하기 위한 필수 단계",
+        "slug": "입력_폴더_스캔"
+      }
+    },
+    {
+      "id": "task:파일_내용_분석",
+      "label": "파일 내용 분석",
+      "type": "Task",
+      "type_label": "할 일",
+      "properties": {
+        "title": "파일 내용 분석",
+        "priority": "MEDIUM",
+        "reason": "요구사항, 개념, 할 일 등을 추출하기 위한 핵심 단계",
+        "slug": "파일_내용_분석"
+      }
+    },
+    {
+      "id": "task:요구사항_개념_할_일_오류_결정사항_추출",
+      "label": "요구사항/개념/할 일/오류/결정사항 추출",
+      "type": "Task",
+      "type_label": "할 일",
+      "properties": {
+        "title": "요구사항/개념/할 일/오류/결정사항 추출",
+        "priority": "MEDIUM",
+        "reason": "경량 그래프 및 Obsidian 노트 생성을 위한 핵심 정보 추출 단계",
+        "slug": "요구사항_개념_할_일_오류_결정사항_추출"
+      }
+    },
+    {
+      "id": "task:경량_그래프_생성",
+      "label": "경량 그래프 생성",
+      "type": "Task",
+      "type_label": "할 일",
+      "properties": {
+        "title": "경량 그래프 생성",
+        "priority": "MEDIUM",
+        "reason": "추출된 정보를 구조화하고 시각화하기 위한 핵심 단계",
+        "slug": "경량_그래프_생성"
+      }
+    },
+    {
+      "id": "task:obsidian_markdown_노트_생성",
+      "label": "Obsidian Markdown 노트 생성",
+      "type": "Task",
+      "type_label": "할 일",
+      "properties": {
+        "title": "Obsidian Markdown 노트 생성",
+        "priority": "MEDIUM",
+        "reason": "사용자가 시각적으로 정보를 확인할 수 있는 주요 출력물 생성 단계",
+        "slug": "obsidian_markdown_노트_생성"
+      }
+    },
+    {
+      "id": "task:google_sheets_요약_row_생성",
+      "label": "Google Sheets 요약 row 생성",
+      "type": "Task",
+      "type_label": "할 일",
+      "properties": {
+        "title": "Google Sheets 요약 row 생성",
+        "priority": "MEDIUM",
+        "reason": "일정 관리를 위한 요약 정보를 Google Sheets에 기록하는 단계",
+        "slug": "google_sheets_요약_row_생성"
+      }
+    },
+    {
+      "id": "task:최종_리포트_생성",
+      "label": "최종 리포트 생성",
+      "type": "Task",
+      "type_label": "할 일",
+      "properties": {
+        "title": "최종 리포트 생성",
+        "priority": "MEDIUM",
+        "reason": "프로젝트의 최종 결과물을 생성하는 단계",
+        "slug": "최종_리포트_생성"
+      }
+    },
+    {
+      "id": "decision:단일_과목_워크스페이스_구조_채택",
+      "label": "단일 과목 워크스페이스 구조 채택",
+      "type": "Decision",
+      "type_label": "결정사항",
+      "properties": {
+        "title": "단일 과목 워크스페이스 구조 채택",
+        "reason": "현재는 하나의 과목에 대한 워크스페이스(폴더 경로)를 입력받는 구조로 설계됨",
+        "slug": "단일_과목_워크스페이스_구조_채택"
+      }
+    },
+    {
+      "id": "decision:다중_과목_관리를_위한_폴더_구조_제안",
+      "label": "다중 과목 관리를 위한 폴더 구조 제안",
+      "type": "Decision",
+      "type_label": "결정사항",
+      "properties": {
+        "title": "다중 과목 관리를 위한 폴더 구조 제안",
+        "reason": "여러 과목을 관리할 경우 'workspace/' 안에 과목 이름의 폴더를 생성하는 방식으로 확장 가능성을 제시함",
+        "slug": "다중_과목_관리를_위한_폴더_구조_제안"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "project:local",
+      "target": "file:강의자료_강의메모.md",
+      "relation": "CONTAINS"
+    },
+    {
+      "source": "project:local",
+      "target": "file:과제_및_공지_기말프로젝트_공지.md",
+      "relation": "CONTAINS"
+    },
+    {
+      "source": "project:local",
+      "target": "file:과제_및_공지_제출안내.md",
+      "relation": "CONTAINS"
+    },
+    {
+      "source": "project:local",
+      "target": "file:과제_및_공지_평가기준.md",
+      "relation": "CONTAINS"
+    },
+    {
+      "source": "project:local",
+      "target": "file:메모_lms_확인_메모.md",
+      "relation": "CONTAINS"
+    },
+    {
+      "source": "project:local",
+      "target": "file:메모_내_정리.md",
+      "relation": "CONTAINS"
+    },
+    {
+      "source": "project:local",
+      "target": "file:제출물_readme.md",
+      "relation": "CONTAINS"
+    },
+    {
+      "source": "project:local",
+      "target": "file:제출물_보고서_초안.md",
+      "relation": "CONTAINS"
+    },
+    {
+      "source": "file:강의자료_강의메모.md",
+      "target": "concept:few-shot_프롬프팅",
+      "relation": "MENTIONS"
+    },
+    {
+      "source": "file:강의자료_강의메모.md",
+      "target": "concept:chain_of_thought_cot",
+      "relation": "MENTIONS"
+    },
+    {
+      "source": "file:강의자료_강의메모.md",
+      "target": "concept:zero-shot_cot",
+      "relation": "MENTIONS"
+    },
+    {
+      "source": "file:강의자료_강의메모.md",
+      "target": "concept:least-to-most",
+      "relation": "MENTIONS"
+    },
+    {
+      "source": "file:강의자료_강의메모.md",
+      "target": "concept:self-consistency",
+      "relation": "MENTIONS"
+    },
+    {
+      "source": "file:강의자료_강의메모.md",
+      "target": "concept:langchain",
+      "relation": "MENTIONS"
+    },
+    {
+      "source": "file:강의자료_강의메모.md",
+      "target": "concept:chains_langchain",
+      "relation": "MENTIONS"
+    },
+    {
+      "source": "file:강의자료_강의메모.md",
+      "target": "concept:agents_langchain",
+      "relation": "MENTIONS"
+    },
+    {
+      "source": "file:강의자료_강의메모.md",
+      "target": "concept:prompts_langchain",
+      "relation": "MENTIONS"
+    },
+    {
+      "source": "file:강의자료_강의메모.md",
+      "target": "concept:retrieval_langchain",
+      "relation": "MENTIONS"
+    },
+    {
+      "source": "file:강의자료_강의메모.md",
+      "target": "concept:memory_langchain",
+      "relation": "MENTIONS"
+    },
+    {
+      "source": "file:강의자료_강의메모.md",
+      "target": "concept:models_langchain",
+      "relation": "MENTIONS"
+    },
+    {
+      "source": "file:강의자료_강의메모.md",
+      "target": "concept:lcel_chain",
+      "relation": "MENTIONS"
+    },
+    {
+      "source": "file:강의자료_강의메모.md",
+      "target": "concept:langgraph",
+      "relation": "MENTIONS"
+    },
+    {
+      "source": "file:강의자료_강의메모.md",
+      "target": "concept:stategraph",
+      "relation": "MENTIONS"
+    },
+    {
+      "source": "file:과제_및_공지_기말프로젝트_공지.md",
+      "target": "requirement:보고서는_팀원_정보_ai_에이전트의_필요성_목적_개요_워크플로우_설명_실행_예시_구현_방법_설명을_포함해야_함",
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "file:과제_및_공지_기말프로젝트_공지.md",
+      "target": "requirement:보고서는_최소_a4_5페이지_이상_작성해야_함",
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "file:과제_및_공지_기말프로젝트_공지.md",
+      "target": "requirement:소스코드는_langchain_langgraph를_사용하여_에이전트를_구현해야_함",
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "file:과제_및_공지_기말프로젝트_공지.md",
+      "target": "requirement:api_키가_노출되지_않도록_주의해야_함",
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "file:과제_및_공지_기말프로젝트_공지.md",
+      "target": "requirement:팀원_중_1인만_과제_제출란에_업로드해야_함",
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "file:과제_및_공지_기말프로젝트_공지.md",
+      "target": "concept:langchain",
+      "relation": "MENTIONS"
+    },
+    {
+      "source": "file:과제_및_공지_기말프로젝트_공지.md",
+      "target": "concept:langgraph",
+      "relation": "MENTIONS"
+    },
+    {
+      "source": "file:과제_및_공지_기말프로젝트_공지.md",
+      "target": "task:보고서에_ai_에이전트의_실행_예시_입력_및_출력_를_추가하여_의도대로_동작함을_보여주기",
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "file:과제_및_공지_기말프로젝트_공지.md",
+      "target": "task:langchain_langgraph를_사용하여_ai_에이전트_소스코드_구현하기",
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "file:과제_및_공지_기말프로젝트_공지.md",
+      "target": "task:보고서에_설계한_워크플로우와_그에_대한_설명을_작성하기",
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "file:과제_및_공지_기말프로젝트_공지.md",
+      "target": "task:api_키가_소스코드에_노출되지_않도록_처리하기",
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "error:api_키_노출_위험",
+      "target": "file:과제_및_공지_기말프로젝트_공지.md",
+      "relation": "OCCURS_IN"
+    },
+    {
+      "source": "error:복수_팀원_제출로_인한_미완성_제출물_평가_위험",
+      "target": "file:과제_및_공지_기말프로젝트_공지.md",
+      "relation": "OCCURS_IN"
+    },
+    {
+      "source": "task:보고서에_ai_에이전트의_실행_예시_입력_및_출력_를_추가하여_의도대로_동작함을_보여주기",
+      "target": "requirement:보고서는_팀원_정보_ai_에이전트의_필요성_목적_개요_워크플로우_설명_실행_예시_구현_방법_설명을_포함해야_함",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:보고서에_ai_에이전트의_실행_예시_입력_및_출력_를_추가하여_의도대로_동작함을_보여주기",
+      "target": "requirement:보고서는_최소_a4_5페이지_이상_작성해야_함",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:보고서에_ai_에이전트의_실행_예시_입력_및_출력_를_추가하여_의도대로_동작함을_보여주기",
+      "target": "requirement:소스코드는_langchain_langgraph를_사용하여_에이전트를_구현해야_함",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:보고서에_ai_에이전트의_실행_예시_입력_및_출력_를_추가하여_의도대로_동작함을_보여주기",
+      "target": "requirement:api_키가_노출되지_않도록_주의해야_함",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:보고서에_ai_에이전트의_실행_예시_입력_및_출력_를_추가하여_의도대로_동작함을_보여주기",
+      "target": "requirement:팀원_중_1인만_과제_제출란에_업로드해야_함",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:langchain_langgraph를_사용하여_ai_에이전트_소스코드_구현하기",
+      "target": "requirement:보고서는_팀원_정보_ai_에이전트의_필요성_목적_개요_워크플로우_설명_실행_예시_구현_방법_설명을_포함해야_함",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:langchain_langgraph를_사용하여_ai_에이전트_소스코드_구현하기",
+      "target": "requirement:보고서는_최소_a4_5페이지_이상_작성해야_함",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:langchain_langgraph를_사용하여_ai_에이전트_소스코드_구현하기",
+      "target": "requirement:소스코드는_langchain_langgraph를_사용하여_에이전트를_구현해야_함",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:langchain_langgraph를_사용하여_ai_에이전트_소스코드_구현하기",
+      "target": "requirement:api_키가_노출되지_않도록_주의해야_함",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:langchain_langgraph를_사용하여_ai_에이전트_소스코드_구현하기",
+      "target": "requirement:팀원_중_1인만_과제_제출란에_업로드해야_함",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:보고서에_설계한_워크플로우와_그에_대한_설명을_작성하기",
+      "target": "requirement:보고서는_팀원_정보_ai_에이전트의_필요성_목적_개요_워크플로우_설명_실행_예시_구현_방법_설명을_포함해야_함",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:보고서에_설계한_워크플로우와_그에_대한_설명을_작성하기",
+      "target": "requirement:보고서는_최소_a4_5페이지_이상_작성해야_함",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:보고서에_설계한_워크플로우와_그에_대한_설명을_작성하기",
+      "target": "requirement:소스코드는_langchain_langgraph를_사용하여_에이전트를_구현해야_함",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:보고서에_설계한_워크플로우와_그에_대한_설명을_작성하기",
+      "target": "requirement:api_키가_노출되지_않도록_주의해야_함",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:보고서에_설계한_워크플로우와_그에_대한_설명을_작성하기",
+      "target": "requirement:팀원_중_1인만_과제_제출란에_업로드해야_함",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:api_키가_소스코드에_노출되지_않도록_처리하기",
+      "target": "requirement:보고서는_팀원_정보_ai_에이전트의_필요성_목적_개요_워크플로우_설명_실행_예시_구현_방법_설명을_포함해야_함",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:api_키가_소스코드에_노출되지_않도록_처리하기",
+      "target": "requirement:보고서는_최소_a4_5페이지_이상_작성해야_함",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:api_키가_소스코드에_노출되지_않도록_처리하기",
+      "target": "requirement:소스코드는_langchain_langgraph를_사용하여_에이전트를_구현해야_함",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:api_키가_소스코드에_노출되지_않도록_처리하기",
+      "target": "requirement:api_키가_노출되지_않도록_주의해야_함",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:api_키가_소스코드에_노출되지_않도록_처리하기",
+      "target": "requirement:팀원_중_1인만_과제_제출란에_업로드해야_함",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "file:과제_및_공지_제출안내.md",
+      "target": "requirement:ai_사용_흔적을_남기지_않아야_함",
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "file:과제_및_공지_제출안내.md",
+      "target": "requirement:백엔드_소스코드_제출",
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "file:과제_및_공지_제출안내.md",
+      "target": "requirement:보고서에_서버_세팅_방법_설명_포함",
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "file:과제_및_공지_제출안내.md",
+      "target": "requirement:보고서에_실행_예시_스크린샷_등_포함",
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "file:과제_및_공지_제출안내.md",
+      "target": "requirement:api_키를_비워놓고_제출_예_your-api-key-here_로_대체",
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "file:과제_및_공지_제출안내.md",
+      "target": "requirement:조교가_설치할_수_있도록_필요한_준비사항_설명",
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "file:과제_및_공지_제출안내.md",
+      "target": "task:보고서에_서버_패키지_등_세팅_방법_작성",
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "file:과제_및_공지_제출안내.md",
+      "target": "task:보고서에_실행_예시_스크린샷_등_추가",
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "file:과제_및_공지_제출안내.md",
+      "target": "task:제출_전_api_키를_비워두거나_대체_문자열로_변경",
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "file:과제_및_공지_제출안내.md",
+      "target": "task:조교를_위한_설치_준비사항_문서화",
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "error:api_키가_제출물에_포함될_위험",
+      "target": "file:과제_및_공지_제출안내.md",
+      "relation": "OCCURS_IN"
+    },
+    {
+      "source": "decision:서버에_구현물_배포는_필수가_아니므로_선택_사항으로_고려",
+      "target": "file:과제_및_공지_제출안내.md",
+      "relation": "AFFECTS"
+    },
+    {
+      "source": "task:보고서에_서버_패키지_등_세팅_방법_작성",
+      "target": "requirement:ai_사용_흔적을_남기지_않아야_함",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:보고서에_서버_패키지_등_세팅_방법_작성",
+      "target": "requirement:백엔드_소스코드_제출",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:보고서에_서버_패키지_등_세팅_방법_작성",
+      "target": "requirement:보고서에_서버_세팅_방법_설명_포함",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:보고서에_서버_패키지_등_세팅_방법_작성",
+      "target": "requirement:보고서에_실행_예시_스크린샷_등_포함",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:보고서에_서버_패키지_등_세팅_방법_작성",
+      "target": "requirement:api_키를_비워놓고_제출_예_your-api-key-here_로_대체",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:보고서에_서버_패키지_등_세팅_방법_작성",
+      "target": "requirement:조교가_설치할_수_있도록_필요한_준비사항_설명",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:보고서에_실행_예시_스크린샷_등_추가",
+      "target": "requirement:ai_사용_흔적을_남기지_않아야_함",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:보고서에_실행_예시_스크린샷_등_추가",
+      "target": "requirement:백엔드_소스코드_제출",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:보고서에_실행_예시_스크린샷_등_추가",
+      "target": "requirement:보고서에_서버_세팅_방법_설명_포함",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:보고서에_실행_예시_스크린샷_등_추가",
+      "target": "requirement:보고서에_실행_예시_스크린샷_등_포함",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:보고서에_실행_예시_스크린샷_등_추가",
+      "target": "requirement:api_키를_비워놓고_제출_예_your-api-key-here_로_대체",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:보고서에_실행_예시_스크린샷_등_추가",
+      "target": "requirement:조교가_설치할_수_있도록_필요한_준비사항_설명",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:제출_전_api_키를_비워두거나_대체_문자열로_변경",
+      "target": "requirement:ai_사용_흔적을_남기지_않아야_함",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:제출_전_api_키를_비워두거나_대체_문자열로_변경",
+      "target": "requirement:백엔드_소스코드_제출",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:제출_전_api_키를_비워두거나_대체_문자열로_변경",
+      "target": "requirement:보고서에_서버_세팅_방법_설명_포함",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:제출_전_api_키를_비워두거나_대체_문자열로_변경",
+      "target": "requirement:보고서에_실행_예시_스크린샷_등_포함",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:제출_전_api_키를_비워두거나_대체_문자열로_변경",
+      "target": "requirement:api_키를_비워놓고_제출_예_your-api-key-here_로_대체",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:제출_전_api_키를_비워두거나_대체_문자열로_변경",
+      "target": "requirement:조교가_설치할_수_있도록_필요한_준비사항_설명",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:조교를_위한_설치_준비사항_문서화",
+      "target": "requirement:ai_사용_흔적을_남기지_않아야_함",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:조교를_위한_설치_준비사항_문서화",
+      "target": "requirement:백엔드_소스코드_제출",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:조교를_위한_설치_준비사항_문서화",
+      "target": "requirement:보고서에_서버_세팅_방법_설명_포함",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:조교를_위한_설치_준비사항_문서화",
+      "target": "requirement:보고서에_실행_예시_스크린샷_등_포함",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:조교를_위한_설치_준비사항_문서화",
+      "target": "requirement:api_키를_비워놓고_제출_예_your-api-key-here_로_대체",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "task:조교를_위한_설치_준비사항_문서화",
+      "target": "requirement:조교가_설치할_수_있도록_필요한_준비사항_설명",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "file:과제_및_공지_평가기준.md",
+      "target": "requirement:ai_에이전트_응용_프로그램_개발",
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "file:과제_및_공지_평가기준.md",
+      "target": "requirement:팀원_1_3인으로_구성",
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "file:과제_및_공지_평가기준.md",
+      "target": "requirement:평가_시_아이디어_70_구현_완성도_30_반영",
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "file:메모_lms_확인_메모.md",
+      "target": "requirement:기말_프로젝트_팀_활동_수행",
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "file:메모_내_정리.md",
+      "target": "requirement:6월_12일까지_기말_프로젝트_제출",
+      "relation": "REQUIRES"
+    },
+    {
+      "source": "file:메모_내_정리.md",
+      "target": "task:기말_프로젝트_제출_준비_및_완료",
+      "relation": "SUPPORTS"
+    },
+    {
+      "source": "task:기말_프로젝트_제출_준비_및_완료",
+      "target": "requirement:6월_12일까지_기말_프로젝트_제출",
+      "relation": "DEPENDS_ON"
+    },
+    {
+      "source": "file:제출물_보고서_초안.md",
+      "target": "concept:langgraph",
+      "relation": "MENTIONS"
+    },
+    {
+      "source": "file:제출물_보고서_초안.md",
+      "target": "concept:obsidian_시각적_그래프",
+      "relation": "MENTIONS"
+    },
+    {
+      "source": "file:제출물_보고서_초안.md",
+      "target": "concept:google_sheets_연동",
+      "relation": "MENTIONS"
+    },
+    {
+      "source": "file:제출물_보고서_초안.md",
+      "target": "concept:requirement_노드",
+      "relation": "MENTIONS"
+    },
+    {
+      "source": "file:제출물_보고서_초안.md",
+      "target": "concept:task_노드",
+      "relation": "MENTIONS"
+    },
+    {
+      "source": "file:제출물_보고서_초안.md",
+      "target": "task:실행_예시_입력_출력_추가",
+      "relation": "SUPPORTS"
+    },
+    {
+      "source": "file:제출물_보고서_초안.md",
+      "target": "task:입력_폴더_스캔",
+      "relation": "SUPPORTS"
+    },
+    {
+      "source": "file:제출물_보고서_초안.md",
+      "target": "task:파일_내용_분석",
+      "relation": "SUPPORTS"
+    },
+    {
+      "source": "file:제출물_보고서_초안.md",
+      "target": "task:요구사항_개념_할_일_오류_결정사항_추출",
+      "relation": "SUPPORTS"
+    },
+    {
+      "source": "file:제출물_보고서_초안.md",
+      "target": "task:경량_그래프_생성",
+      "relation": "SUPPORTS"
+    },
+    {
+      "source": "file:제출물_보고서_초안.md",
+      "target": "task:obsidian_markdown_노트_생성",
+      "relation": "SUPPORTS"
+    },
+    {
+      "source": "file:제출물_보고서_초안.md",
+      "target": "task:google_sheets_요약_row_생성",
+      "relation": "SUPPORTS"
+    },
+    {
+      "source": "file:제출물_보고서_초안.md",
+      "target": "task:최종_리포트_생성",
+      "relation": "SUPPORTS"
+    },
+    {
+      "source": "decision:단일_과목_워크스페이스_구조_채택",
+      "target": "file:제출물_보고서_초안.md",
+      "relation": "AFFECTS"
+    },
+    {
+      "source": "decision:다중_과목_관리를_위한_폴더_구조_제안",
+      "target": "file:제출물_보고서_초안.md",
+      "relation": "AFFECTS"
+    }
+  ]
+}
